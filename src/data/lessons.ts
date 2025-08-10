@@ -193,3 +193,4 @@ export function getPreviousLesson(currentLessonId: string): Lesson | undefined {
   }
   return lessons[currentIndex - 1];
 }
+

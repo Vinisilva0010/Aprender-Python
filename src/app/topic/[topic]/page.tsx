@@ -92,6 +92,7 @@ export default function TopicPage() {
             const statusStyles = {
               locked: 'bg-punk-gray/30 border-punk-gray text-gray-500 cursor-not-allowed',
               available: 'bg-punk-gray/50 border-punk-purple/50 text-white hover:border-punk-purple hover:bg-punk-gray/70',
+              'in-progress': 'bg-punk-blue/10 border-punk-blue text-white hover:border-punk-blue-glow hover:bg-punk-blue/20',
               completed: 'bg-punk-green/10 border-punk-green text-white hover:border-punk-green-glow hover:bg-punk-green/20'
             };
 
@@ -183,3 +184,4 @@ export default function TopicPage() {
     </div>
   );
 }
+

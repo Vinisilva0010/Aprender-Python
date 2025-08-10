@@ -110,3 +110,4 @@ export default function TopicCard({ topic, status }: TopicCardProps) {
     </Link>
   );
 }
+

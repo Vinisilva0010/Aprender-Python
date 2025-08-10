@@ -250,3 +250,4 @@ export function simulatePythonExecution(code: string): { output: string; error?:
     };
   }
 }
+
